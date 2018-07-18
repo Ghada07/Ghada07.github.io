@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--Meta tages-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width:device-width, initial-scale=1">
+		<title>Potato's Resturant</title>
+		<!--Css Files-->
+		<link rel="stylesheet" href="css/normilze.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--bx slider-->
+        <link rel="stylesheet" href="css/jquery.bxslider.css">
+		<!--Favicon-->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+
+		<!--font awsome library-->
+    	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower" rel="stylesheet">
+
+	</head>
+	
+	<body>
+        <!--start header-->
+        <header>
+            <!--start nav-->
+            <nav>
+                <!--start container-->
+                <div class="container text-center">
+                    <div class="logo text-center">
+                        <img src="images/logo.gif" alt="potato logo">
+                    </div>
+                    <div class="nanbar">
+                        <ul>
+                            <li><a class="active" href="#home">Home</a></li>
+                            <li><a href="#" data-value = "about">About Us</a></li>
+                            <li><a href="#" data-value = "dish">Dishes</a></li>
+                            <li><a href="#" data-value = "testi">Testimonials</a></li>
+                            <li><a href="#" data-value = "sub">Subscribe</a></li>
+                            <li><a href="#" data-value = "book">Book Table</a></li>
+                            <li><a href="#" data-value = "footer">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0);" class="tog" onclick="myFunction()">&#9776;</a>
+                </div>
+                <!--end container-->
+            </nav>
+            <!--end nav-->
+            <div class="clear"></div>
+            <!--Start slider-->
+			<div class="slider">
+				
+				<div class="bxslider text-center">
+					<div><img src="images/potato-oven.jpg" alt="dish of potato backed in oven" title="Backed potato"></div>
+					<div><img src="images/potato%20with%20meat.jpg" alt="potato with meat in oven" title="Potato with meat"></div>
+					<div><img src="images/potato%20with%20cheese.jpg" alt="potato with cheese as rings" title="Potato with cheese"></div>
+				</div>
+			</div>
+            <!--end slider-->
+        </header>
+        <!--end header-->
+        
+        <!--start about us section-->
+        <section id="about" class="about">
+            <div class="row">
+                <div class="col">
+                    <div class="container">
+                        <h2>About Us</h2>
+                        <span>Our Story</span>
+                        <p>All our dishes include potato , In the old pyramid, potatoes belonged to the starch group. Now they are re-classified and placed in their rightful group, vegetables. Potatoes are healthy and a good source of vitamin.</p>
+                        <button>Read More <i class="fas fa-angle-right"></i></button>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/potatoes%20balls.jpg" alt="Backed potatos balls">
+                </div>
+            </div>
+        </section>
+        <!--end about us section-->
+        <div class="clear"></div>
+        <!--start dishes setion-->
+        <section id="dish" class="dishes text-center">
+            <div class="container">
+            <h2>Our Dishes</h2>
+            <ul>
+                <li  data-filter="all" class="active">All</li>
+                <li  data-filter=".breakfast">Breakfast</li>
+                <li  data-filter=".sweet">Sweet</li>
+                <li  data-filter=".mash">Mashed</li>
+                <li  data-filter=".chick">Chicken</li>
+                <li  data-filter=".chips">Chips</li>
+            </ul>
+            <div id = "container" class="gallery">
+                <div class="row">
+                    <div class="col">
+                        <div class="mix breakfast">
+                            <div class="overlay">Gluten Potato</div>
+                            <img src="images/breakfast_p1.jpg" alt="Gluten Potato">
+                        </div>
+                    </div>
+                     <div class="col">
+                        <div class="mix chick">
+                             <div class="overlay">Chicken potato</div>
+                            <img src="images/chicken_p1.JPG" alt="Chicken potato">       
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix sweet">
+                             <div class="overlay">Sweet Potato</div>
+                            <img src="images/sweet_p1.jpg" alt="Sweet Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix mash">
+                            <div class="overlay">Egg Potato</div>
+                            <img src="images/mash_p1.jpg" alt="Egg Potato">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mix mash">
+                            <div class="overlay">Mash Potato</div>
+                            <img src="images/mash_p2.jpg" alt="Mash Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix chips">
+                            <div class="overlay">Chips Potato</div>
+                            <img src="images/chips_p1.jpg" alt="chips Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix sweet">
+                            <div class="overlay">Sweet Potato</div>
+                            <img src="images/sweet_p2.jpg" alt="Sweet Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix breakfast">
+                            <div class="overlay">Delicious Slises</div>
+                            <img src="images/breakfast_p2.jpg" alt="Delicious Slises">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="mix mash">
+                            <div class="overlay">Mash Potato</div>
+                            <img src="images/mash_p3.jpg" alt="Mash Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix sweet">
+                            <div class="overlay">Sweet Creem Potato</div>
+                            <img src="images/sweet_p3.jpg" alt="Sweet Creem Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix chips">
+                            <div class="overlay">Rotate Sweet Potato</div>
+                            <img src="images/chips_p3.jpg" alt="Rotate Sweet Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mix breakfast">
+                            <div class="overlay">Vigtables Potato</div>
+                            <img src="images/breakfast_p3.jpg" alt="Vigtables Potato">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                        <div class="mix sweet">
+                            <div class="overlay">Oven Sweet Potato</div>
+                            <img src="images/sweet_p4.jpg" alt="Oven Sweet Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                         <div class="mix breakfast">
+                             <div class="overlay">Egg Potato</div>
+                            <img src="images/breakfast_p4.jpg" alt="Egg Potato">
+                        </div>
+                    </div>
+                    <div class="col">
+                         <div class="mix chips">
+                             <div class="overlay">Delicious Chips</div>
+                            <img src="images/chips_p4.jpg" alt="Delicious Chips">
+                        </div>
+                    </div>
+					 <div class="col">
+                         <div class="mix mash">
+                             <div class="overlay">Mashed Potato</div>
+                            <img src="images/mashed-potatoes.jpg" alt="Mashed Potato">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!--end dishes setion-->
+        <div class="clear"></div>
+        <!--start testimonials-->
+        <section id="testi" class="testimonials">
+            <div class="row">
+                <div class="container">
+                <span>Customer Reviews</span>
+                <h2>What Are They Saying</h2>
+                <div class="col text-center">
+                    <div class="review">
+                        <i class="fas fa-quote-left"></i>
+                        <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. model sentence structures </p>
+                        <i class="fas fa-quote-right"></i>
+                        <p class="name">John William</p>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="client"><img src="images/client-A.jpg" alt="John William"></div>
+                </div>
+                    
+                    
+                <div class="col text-center">
+                    <div class="review">
+                        <i class="fas fa-quote-left"></i>
+                        <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures</p>
+                        <i class="fas fa-quote-right"></i>
+                        <p class="name">Jolia Michel</p>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="client"><img src="images/client-D.jpg" alt="Jolia Michel"></div>
+                </div>
+                    
+                <div class="col text-center">
+                    <div class="review">
+                        <i class="fas fa-quote-left"></i>
+                        <p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. model sentence structures</p>
+                        <i class="fas fa-quote-right"></i>
+                        <p class="name">Lionardo Alfons</p>
+                    </div>
+                    <div class="triangle"></div>
+                    <div class="client"><img src="images/client-E.jpg" alt="Lionardo Alfons"></div>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!--end testimonials-->
+        <div class="clear"></div>
+        <!--start subscribe-->
+        <section id="sub" class="subscribe text-center">
+            <!--start container-->
+            <div class="container">
+                <div class="title"><span>subscribe newsletter</span></div>
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="Email Address">
+                        <input type="button" value="Submit">
+                    </form>
+                </div>
+        </div>
+        <!--end container-->    
+        </section>
+        <!--end subscribe-->
+        
+        <!--start reservation-->
+        <section id ="book" class="book text-center">
+            <!--start container-->
+            <div class="container">
+                <h2>Resturant</h2>
+                <span>Book Your Table</span>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Your Name*">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Your Email*">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Mobile Number*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Date*">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="Time*">
+                    </div>
+                    <div class="col">
+                        <input type="text" placeholder="No. of persons*">
+                    </div>
+                </div>
+                <input type="button" value="BOOK NOW">
+            </div>
+            <!--end container-->
+        
+        
+        </section>
+        <!--end reservation-->
+        <!--start footer-->
+        <footer id="footer">
+            <!--start container-->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="logo text-center">
+                        <img src="images/logo.gif" alt="potato logo">
+                    </div>
+                        <p>Thank you for being a friend. Travelled down the road and back again. Your heart is true you're a pal and a confidant </p>
+                    </div>
+                    <div class="col">
+                        <h3>where we are</h3>
+                        <p>G2Kingspark,Downtown, Newyork</p>
+                    </div>
+                    <div class="col">
+                        <h3>working hours</h3>
+                        <p>Monday - Sunday</p>
+                        <span>9:00AM to 11:00PM</span>
+                    </div>
+                </div><br><br>
+                <div class="clear"></div>
+				<button id="btn" title="Go to top"><i class="fas fa-level-up-alt"></i></button>
+                <p class="text-center">&copy; Copyrights 2018 <span>Ghada</span> . All rights reserved</p>
+                <div class="s-links text-center">
+                    <ul>
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                        <li><i class="fab fa-google-plus-g"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                    
+                    </ul>
+                </div>
+            </div>
+            <!--end container-->
+        </footer>
+        <!--end footer-->
+       <div class="clear"></div>
+       
+                   
+	<!--jS FILES-->
+		<script src="js/jquery-1.12.3.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script src="js/mixitup.min.js"></script>
+		<script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/custom.js"></script>
+	
+	</body>
+
+</html>

@@ -1,0 +1,613 @@
+/*General Rules*/
+html{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}/*
+*,*:after,*:before{
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	-o-box-sizing: inherit;
+	
+}*/
+ul{
+    list-style: none
+}
+a{
+    text-decoration: none;
+	color: #f4cc5b;
+}
+h2{
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;
+    text-align: left
+}
+p{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;;
+    line-height: 1.7;
+    text-align: justify
+}
+/*start header*/
+header{
+    overflow: hidden;
+	background-color: #333;
+}
+header nav{
+    background-color: #333;
+    color: #FFF;
+}
+header nav .logo{
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+header nav .nanbar{
+    text-align: left;
+    display: none
+}
+header nav .nanbar ul{
+    padding-left: 0;
+}
+header nav .nanbar li {
+    border: 1px solid #FFF;
+    margin-top: 5%;
+    padding: 1%
+}
+header nav .nanbar li a{
+    color: #e8daa5
+}
+/*end header*/
+/*start slider*/
+/*.bx-wrapper .bx-pager.bx-default-pager a{
+    background-color: #efb719 !important
+}
+.bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color: #f4cc5b !important
+}*/
+.bxslider img{
+	width: 100%
+}
+/*end slider*/
+
+/*start about us*/
+.about .row .col{
+    margin-top: 5%
+}
+.about .row .col img{
+    width: 100%
+}
+.about .row .col h2{
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;
+}
+.about .row .col span{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    
+}
+
+.about .row .col button{
+    background: 0;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-right: transparent;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.about .row .col button:hover,
+.about .row .col button:focus{
+    font-weight: bold
+}
+.about .row .col button .svg-inline--fa{
+    background-color: #f4cc5b;
+    border-radius: 0 20px 20px 0;
+    padding: 5px 10px;
+    margin: -6px -1px;
+    margin-right: -10px
+}
+/*end about us*/
+/*start dishes*/
+.dishes{
+    padding-top: 5%;
+    
+}
+.dishes .row .col{
+    width: 100%
+}
+.dishes ul{
+    padding-left: 0;
+    margin-bottom: 25px
+}
+.dishes ul li{
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 17px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.dishes .mix{
+    position: relative
+}
+.dishes img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    
+}
+/*end dishes*/
+
+/*start testimonials*/
+.testimonials{
+    background-color: #333;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-top: 10%;
+	overflow: hidden
+}
+.testimonials span{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+.testimonials .row .col {
+    margin-top: 10%;
+    
+}
+.testimonials .row .col .review{
+    background-color: #fff;
+    padding: 3%;
+    border-radius: 5px
+}
+
+.testimonials .row .col p{
+    text-align: center
+}
+.testimonials .row .col .triangle{
+    width: 0;
+    border-top: 20px solid #FFF;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: auto
+}
+.testimonials .row .col .client{
+    margin-top: 5%
+}
+.testimonials .row .col img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonials .row .col img:hover{
+    transform:rotate(10deg)
+}
+.testimonials .row .col .name{
+    color: #ffc728;
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+/*end testimonials*/
+
+/*start subscribe*/
+.subscribe{
+    background-color: #f4cc5b;
+    padding: 10% 0
+}
+.subscribe .title{
+    margin-bottom: 5%;
+    text-transform:capitalize;
+    color: #f5f5f5;
+    font-size: 25px
+}
+.subscribe input{
+    background: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    font-size: 15px
+}
+.subscribe input[type='button']{
+    background-color: #fff;
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5%;
+    font-size: 20px
+}
+::placeholder{
+    color: #f5f5f5;
+}
+/*end subscribe*/
+
+/*start reservation*/
+.book{
+    background-image: url(../images/our%20restaurant.jpg);
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+.book h2{
+    text-align: center;
+    font-size: 30px
+}
+.book span{
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.book .row:nth-child(3){
+    margin-top: 20px
+}
+.book input{
+    background:none;
+    margin-top: 15px;
+    border: 1px solid #f4cc5b;
+    padding: 5px;
+    font-size: 15px;
+    color: #fff
+}
+.book input[type = 'button']{
+    background-color: #f4cc5b;
+    color: #f5f5f5;
+    border-radius: 20px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    padding: 10px
+}
+/*end reservation*/
+
+/*start footer*/
+footer{
+    background-color: #000;
+    
+}
+
+footer p{
+   color: #fff;
+    
+}
+footer p span{
+    color: #f4cc5b;
+}
+footer .row .col .logo{
+    padding-top: 20px
+}
+footer .row .col .logo img{
+    width: 150px
+}
+footer .row .col p{
+    color: #f5f5f5;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+footer .row .col h3{
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 30px
+}
+footer .row .col span{
+    color: #f4cc5b;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+}
+footer .s-links{
+    padding: 0 5px 5px;
+    padding-right: 8%;
+    padding-left: 0
+    
+}
+footer .s-links ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 1px;
+    border-radius: 50%;
+    background-color: #f4cc4b
+}
+footer .s-links ul li:nth-child(1){
+    padding: 10px 15px
+}
+footer .s-links ul li:nth-child(2),
+footer .s-links ul li:nth-child(4){
+    padding: 10px 12px
+}
+
+footer .s-links ul li .svg-inline--fa{
+    color: #fff
+}
+footer .s-links ul li .svg-inline--fa:hover{
+    color: #000;
+    cursor: pointer
+}
+footer button{
+    background-color: #f4cc4b;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 50%;
+    position: fixed;
+    display:none ;
+    bottom: 40px;
+    right: 30px; 
+    z-index: 99;
+    color: #555;
+    font-weight: bold;
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+/*My Framework*/
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+.overlay{
+    position:absolute;
+    background: rgba(51,51,51,.4);
+    top: 150px;
+    right: 0;
+    left:0;
+    height: 50px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    line-height: 2.5
+    
+}
+.text-center{
+    text-align: center
+}
+.clear{
+    clear: both
+}
+.separator{
+	border: 1px solid #DDD;
+	width: 140px;
+	margin: auto
+}
+.active{
+    color: #f4cc5b !important;
+    text-decoration: underline
+}
+.nav-bg{
+	background: #333
+}
+
+/**************************************Media Query***********************************/
+
+/*Media Queiry*/
+@media screen and (min-width:481px) and (max-width:767px){
+   
+    nav a{
+        display: none
+    }
+    header nav .logo{
+        padding-bottom: 0
+    }
+    header nav .nanbar{
+        display: block;
+        padding-bottom: 2%
+        
+    }
+    header nav .nanbar ul li{
+        border: 0;
+        display: inline-block
+    }
+    header nav .nanbar ul li a{
+         display: inline-block
+    }
+    .dishes .row .col{
+        width: 45%;
+        float: left;
+        margin-left: 2%
+        
+    }
+    .dishes ul li{
+        margin-right: 15px;
+    }
+    footer .row .col:nth-child(1){
+        width: 32%;
+        float: left
+    }
+    footer .row .col:nth-child(2),
+    footer .row .col:nth-child(3){
+        width: 30%;
+        float: left;
+        margin-left: 4%;
+        padding-top: 15%
+    }
+}
+@media screen and (min-width:768px) and (max-width:990px){ /*medium screen - tablets*/
+	
+	nav a{
+        display: none
+    }
+    header nav .logo{
+        padding-bottom: 0
+    }
+    header nav .nanbar{
+        display: block;
+        padding-bottom: 2%
+        
+    }
+	header nav .nanbar ul{
+		padding-left: 10%
+	}
+    header nav .nanbar ul li{
+        border: 0;
+        display: inline-block
+    }
+    header nav .nanbar ul li a{
+         display: inline-block
+    }
+	.about .row .col{
+		width:50%;
+		float: left
+	}
+	.about .row .col img{
+		height: 400px
+	}
+	.about .row .col button{
+		margin-top: 20px
+	}
+	.dishes .row .col{
+        width: 45%;
+        float: left;
+        margin-left: 2%
+        
+    }
+    .dishes ul li{
+        margin-right: 15px;
+    }
+	.book .row .col{
+		width: 33%;
+		float: left
+	}
+	.subscribe .title
+	{
+		width: 40%;
+		float: left;
+		text-align: right
+	}
+	.subscribe .form{
+		width: 40%;
+		float: left
+	}
+	.subscribe .title{
+		margin-top: 25px;
+	}
+	.subscribe input[type = "button"]{
+		padding: 5px 15px
+	}
+	   footer .row .col:nth-child(1){
+        width: 32%;
+        float: left
+    }
+    footer .row .col:nth-child(2),
+    footer .row .col:nth-child(3){
+        width: 30%;
+        float: left;
+        margin-left: 4%;
+        padding-top: 11%
+    }
+		
+}
+@media screen and (min-width:991px){/*Large screen*/
+	nav a{
+        display: none
+    }
+	
+	header nav .nanbar{
+		width: 70%;
+		float: left;
+		padding-left: 5%
+	}
+    header nav .logo{
+		width: 25%;
+		float: left;
+		padding: 0;
+		padding-top: 3%;
+		padding-bottom: 3%;
+		text-align: left
+    }
+    header nav .nanbar{
+        display: block; 
+    }
+	header nav .nanbar ul{
+		padding-top: 5%
+	}
+    header nav .nanbar ul li{
+        border: 0;
+        display: inline-block
+    }
+    header nav .nanbar ul li a{
+         display: inline-block
+    }
+	.about .row .col{
+		width:50%;
+		float: left
+	}
+	.about .row .col img{
+		height: 400px
+	}
+	.about .row .col button{
+		margin-top: 20px
+	}
+	.dishes .row .col{
+        width: 24%;
+        float: left;
+        margin-left: 1%
+    }
+    .dishes ul li{
+        margin-right: 15px;
+		font-size: 25px
+    }
+	.book .row .col{
+		width: 33%;
+		float: left
+	}
+	.book .row .col input[type = "text"]{
+		width: 250px
+	}
+	.subscribe .title
+	{
+		width: 40%;
+		float: left;
+		text-align: right;
+		
+	}
+	.subscribe .form{
+		width: 40%;
+		float: left;
+		text-align: left;
+		margin-left: 1%
+	}
+	.subscribe .title{
+		margin-top: 25px;
+	}
+	.subscribe input[type = "button"]{
+		padding: 5px 15px
+	}
+	   footer .row .col:nth-child(1){
+        width: 32%;
+        float: left
+    }
+    footer .row .col:nth-child(2) ,
+    footer .row .col:nth-child(3) {
+        width: 30%;
+        float: left;
+        margin-left: 4%;
+        padding-top: 7%;
+		text-align: center
+    }
+	footer .row .col p{
+		text-align: center
+	}
+	.testimonials .row .col{
+		width:32%;
+		float: left;
+		margin-left: 1%;
+		margin-top:25px
+	}
+	footer .s-links{
+		padding-left: 5%
+	}
+		
+
+}
