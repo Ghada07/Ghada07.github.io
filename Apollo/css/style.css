@@ -1,0 +1,226 @@
+/*start global style*/
+body{
+    position: relative;
+	
+}
+h3{
+	font-weight: 100
+}
+h3 span{
+	font-weight: bold
+}
+/*end global style*/
+/*start section home*/
+.home{
+    background-color: #efefef;
+    /*overflow: hidden;*/
+	
+}
+
+.home img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	width: 500px;
+	
+}
+
+/*end section home*/
+
+/*start navbar*/
+.navbar .nav-item a{
+	color:#8c8c8c;
+	
+}
+.navbar .nav-item:hover a{
+	color: #bfbfbf;
+    text-decoration: underline
+}
+
+/*end navbar*/
+
+/*start About section*/
+.about{
+    background-color: #efefef;
+    min-height: 460px;
+}
+.about img{
+	width: 500px;
+	height: 500px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.about .s-link li:hover{
+	color: #3377ff;
+}
+/*end About section*/
+
+/*start portfolio1*/
+.portfolio1 img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	 min-height: 460px;
+    
+}
+.portfolio1 a span{
+    background-color: #333;
+
+}
+/*end portfolio1*/
+
+/*start portfolio2*/
+.portfolio2{
+    background-color: #efefef;
+     
+}
+.portfolio2 img{
+	width: 500px;
+	height: 300px;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/*end portfolio2*/
+
+/*start portfolio3*/
+.portfolio3{
+	background-color: #efefef;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+	 min-height: 490px;
+}
+.portfolio3 img{
+	width:350px;
+	height: 320px
+}
+/*end portfolio3*/
+
+/*start contact*/
+.contact{
+	background-color: #efefef;
+}
+
+.contact form input[type="text"]{
+	width: 25%
+}
+
+.contact form textarea{
+	width: 50%;
+	height: 80px
+}
+.contact form input[type = "button"]{
+	width: 50%
+}
+/*end contact*/
+
+
+/* start My Own framework*/
+.background-watermark{
+    z-index: 0;
+    background-color: #efefef;
+}
+
+.content{
+  
+    z-index: 1
+}
+.bg-text {
+    color: #e3e3e3;
+    line-height: .8;
+	font-size: 20em
+}
+.about .bg-text{
+	font-size: 32em;
+	line-height: .6
+}
+.portfolio2 .bg-text{
+	font-size: 21em;
+	line-height: .6
+}
+.contact .bg-text{
+	font-size: 25em;
+    
+	
+}
+/* start Top button*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right:20px ; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    
+}
+/* end Top button*/
+
+
+/*start jssor slider*/
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .jssorb051 .i {position:absolute;cursor:pointer;}
+        .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+        .jssorb051 .i:hover .b {fill-opacity:.7;}
+        .jssorb051 .iav .b {fill-opacity: 1;}
+        .jssorb051 .i.idn {opacity:.3;}
+
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+/*end jssor slider*/
+
+/**************************Media Query*******************************/
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.bg-text{
+		font-size: 40em;
+		line-height: .17
+	}
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.bg-text{
+		font-size: 40em;
+		line-height: .4
+	}
+	.about .bg-text{
+		line-height: .58;
+		font-size: 44em
+	}
+	.portfolio1 .bg-text{
+		line-height: .7
+	}
+	.portfolio2 .bg-text{
+		line-height: .58;
+		font-size: 35em
+	}
+	.portfolio3 .bg-text{
+		line-height: .45;
+		font-size: 43em
+	}
+	.contact .bg-text{
+		font-size: 35em;
+		line-height: .6
+	}
+}
